@@ -1,0 +1,30 @@
+$blanco:white;
+$negro:black;
+$size:100px;
+
+@mixin vertical {
+  width: $size;
+  height: $size;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin-right: 100px ;
+  margin-left: 100px;
+}
+.cuatro{
+  margin: 0;
+  padding: 0;
+}
+
+.negro2{
+  @include vertical();
+  display:inline-block;
+  background-color: $negro;
+}
+.blanco2{
+  @include vertical();
+  display: inline-block;
+  background-color: $blanco;
+}
