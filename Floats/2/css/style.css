@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#container {
+  width: 100%;
+  background-color: aqua;
+  text-align: center; }
+
+.primeros {
+  background-color: aqua;
+  border-radius: 5px;
+  float: left;
+  width: 49.5%; }
+
+.primeros:first-child {
+  margin-right: 1%; }
+
+.segundo {
+  background-color: aqua;
+  border-radius: 5px;
+  float: left;
+  width: 30%;
+  margin: 1% 1% 1% 0; }
+
+.tercero {
+  background-color: aqua;
+  border-radius: 5px;
+  float: left;
+  width: 69%;
+  margin: 1% 0 1% 0; }
+
+.cuarto {
+  background-color: aqua;
+  border-radius: 5px;
+  float: left;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

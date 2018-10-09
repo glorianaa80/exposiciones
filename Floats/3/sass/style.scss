@@ -1,0 +1,67 @@
+@import 'config/variable';
+@import 'config/mixin';
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+#container{
+    width: $ancho;
+    text-align: center
+}
+
+.primero{
+    @include cuatros;
+    width:$ancho2;
+    margin-right: 1%
+}
+
+.segundo{
+    @include cuatros;
+    width: $ancho3;
+    margin-right: 1%;
+}
+
+.tercero{
+    @include cuatros;
+    width: $ancho3;
+    margin: $margen
+}
+
+.cuarto{
+    @include cuatros;
+    width: $ancho2;
+    height: 55px;
+    margin: $margen2;
+}
+
+.quinto{
+    @include cuatros;
+    width: $ancho3;
+    margin: $margen2;
+}
+
+.sexto{
+    @include cuatros;
+    width: $ancho3;
+    margin: $margen; 
+}
+
+.setimo{
+    @include cuatros;
+    width:$ancho4;
+    margin: $margen2;
+}
+
+.octavo{
+    @include cuatros;
+    width:$ancho3;
+    margin: $margen2;
+}
+
+.noveno{
+    @include cuatros;
+    width: $ancho3;
+    margin: $margen ;
+}

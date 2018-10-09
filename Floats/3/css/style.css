@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#container {
+  width: 100%;
+  text-align: center; }
+
+.primero {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 49%;
+  margin-right: 1%; }
+
+.segundo {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 24%;
+  margin-right: 1%; }
+
+.tercero {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 24%;
+  margin: 1% 1% 1% 0; }
+
+.cuarto {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 49%;
+  height: 55px;
+  margin: 0 1% 0 0; }
+
+.quinto {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 24%;
+  margin: 0 1% 0 0; }
+
+.sexto {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 24%;
+  margin: 1% 1% 1% 0; }
+
+.setimo {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 74%;
+  margin: 0 1% 0 0; }
+
+.octavo {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 24%;
+  margin: 0 1% 0 0; }
+
+.noveno {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 24%;
+  margin: 1% 1% 1% 0; }
+
+/*# sourceMappingURL=style.css.map */

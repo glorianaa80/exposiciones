@@ -1,0 +1,44 @@
+@import 'config/variable';
+@import 'config/mixin';
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#container{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.cuadros1{
+  @include cuatros;
+  margin:$margen; 
+}
+
+.cuadros2{
+  @include cuatros;
+  margin:$margen; 
+}
+
+.cuadros3{
+  @include cuatros;
+  margin:$margen; 
+}
+
+.cuadros4{
+  @include cuatros;
+  margin:$margen2;
+}
+
+.cuadros5{
+  @include cuatros;
+  margin:$margen2;
+}
+
+.cuadros6{
+  @include cuatros;
+  margin:$margen2;
+}
+

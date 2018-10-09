@@ -1,0 +1,37 @@
+@import 'config/variable';
+@import 'config/mixin';
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: $ancho4;
+    background-color: $cuadros;
+    text-align: center;
+}
+
+.primeros{
+   @include cuatros;
+    width:$ancho;
+}
+.primeros:first-child{
+    margin-right: 1%;
+}
+
+.segundo{
+    @include cuatros;
+    width: $ancho2;
+    margin:$margen;
+}
+.tercero{
+    @include cuatros;
+    width: $ancho3;
+    margin:$margen2;
+}
+
+.cuarto{
+    @include cuatros;
+    width: $ancho4;
+}
